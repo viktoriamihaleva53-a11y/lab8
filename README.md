@@ -20,7 +20,7 @@
     printf("Ошибка: n должно быть натуральным числом!\n");
     return 1;}`
 5. Основной алгоритм - цикл for:
-   - `for (int i = 1; i <= n; i++) 
+   - for (int i = 1; i <= n; i++) 
 {
     x_power *= x;  
     double sin_value = sin(x_power);  
