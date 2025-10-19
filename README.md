@@ -20,14 +20,7 @@
     printf("Ошибка: n должно быть натуральным числом!\n");
     return 1;}`
 5. Основной алгоритм - цикл for:
-   - for (int i = 1; i <= n; i++) 
-{
-    x_power *= x;  
-    double sin_value = sin(x_power);  
-    sum += sin_value;
-    printf("sin(x^%d) = sin(%.4f) = %.6f\n", i, x_power, sin_value);
-
-}`
+   - `for (int i = 1; i <= n; i++) {x_power *= x;  double sin_value = sin(x_power);  sum += sin_value;printf("sin(x^%d) = sin(%.4f) = %.6f\n", i, x_power, sin_value);}`
 6. Вывод суммы:
   - `printf("Сумма = %.6f\n", sum);`
 7. **Конец**
